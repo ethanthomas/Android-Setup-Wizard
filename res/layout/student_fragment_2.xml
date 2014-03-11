@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:padding="20dp"
+                android:text="When are you going?"
+                android:textSize="40sp" />
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:layout_below="@+id/textView1">
+            <RadioGroup
+                android:id="@+id/type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1" >
+
+                <RadioButton
+                    android:id="@+id/studentdateradioButton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="10dp"
+                    android:text="January"
+                    android:textSize="26sp" />
+
+                <RadioButton
+                    android:id="@+id/studentdateradioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="10dp"
+                    android:text="February"
+                    android:textSize="26sp" />
+
+                <RadioButton
+                    android:id="@+id/studentdateradioButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="10dp"
+                    android:text="March"
+                    android:textSize="26sp" />
+
+                <RadioButton
+                    android:id="@+id/studentdateradioButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="10dp"
+                    android:text="April"
+                    android:textSize="26sp" />
+
+                <RadioButton
+                    android:id="@+id/studentdateradioButton5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="10dp"
+                    android:text="May"
+                    android:textSize="26sp" />
+
+                <RadioButton
+                    android:id="@+id/studentdateradioButton6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="10dp"
+                    android:text="June"
+                    android:textSize="26sp" />
+
+                <RadioButton
+                    android:id="@+id/studentdateradioButton7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="10dp"
+                    android:text="July"
+                    android:textSize="26sp" />
+
+                <RadioButton
+                    android:id="@+id/studentdateradioButton8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="10dp"
+                    android:text="August"
+                    android:textSize="26sp" />
+
+                <RadioButton
+                    android:id="@+id/studentdateradioButton9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="10dp"
+                    android:text="September"
+                    android:textSize="26sp" />
+
+                <RadioButton
+                    android:id="@+id/studentdateradioButton10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="10dp"
+                    android:text="October"
+                    android:textSize="26sp" />
+
+                <RadioButton
+                    android:id="@+id/studentdateradioButton11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="10dp"
+                    android:text="November"
+                    android:textSize="26sp" />
+
+                <RadioButton
+                    android:id="@+id/studentdateradioButton12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="10dp"
+                    android:text="December"
+                    android:textSize="26sp" />
+            </RadioGroup>
+            
+            </ScrollView>
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>
